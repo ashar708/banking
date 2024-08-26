@@ -4,7 +4,7 @@ import { formatAmount } from '../lib/utils'
 import Image from 'next/image'
 import Copy from './Copy'
 
-const BankCard = ({account,username,showbalance=true}:CreditCardProps) => {
+const BankCard = ({account,userName,showBalance=true}:CreditCardProps) => {
   return (
     <div className='flex flex-col'>
       <Link href={`/transaction-history/?id=${account.appwriteItemId}`} className='bank-card'>
@@ -19,7 +19,7 @@ const BankCard = ({account,username,showbalance=true}:CreditCardProps) => {
         </div>
         <article className='flex flex-col gap-2'>
             <div className='flex justify-between'>
-                <h1 className='text-12 font-semibold text-white'>{username}</h1>
+                <h1 className='text-12 font-semibold text-white'>{userName}</h1>
                 <h2 className='text-12 font-semibold text-white'> ●● / ●●</h2>
             </div>
             <p className='text-14 font-semibold tracking-[1.1px] text-white'>●●●● ●●●● ●●●●<span className='text-16'>{account?.mask}</span></p>
@@ -48,7 +48,7 @@ const BankCard = ({account,username,showbalance=true}:CreditCardProps) => {
       className='absolute top-0 left-0'
       />
       </Link>
-      {showbalance && <Copy title={account?.shareableId}/>}
+      {showBalance && <Copy title={account?.shareableId}/>}
     </div>
   )
 }
