@@ -3,6 +3,43 @@
 ![image](https://github.com/user-attachments/assets/26461ba6-cbcd-488e-b8eb-2ae1ac708afb)
 
 
+The banking app helps the user connect to different banks and create an account using the dwolla and plaid sandbox.
+
+Plaid is used to connect your bank accounts to various software and applications.
+Dwolla which allows us to do Real-time payments.
+
+This app utilises the NextJS Features like - 
+1. Layouts and Pages (The folder structure)
+2. Setting up database using Appwrite
+3. Adding search and pagination
+4. Mutating Data - API calls creating server side logic for signIn/Signup which is gets authenticated using appwrite by creating the client sessions.
+
+
+
+## The Signup & Login Page - 
+
+### The Signup Page - 
+
+![image](https://github.com/user-attachments/assets/9be40018-af3b-477a-95d6-374d680e2c3c)
+
+The types for each field of the form is checked using the type annotation property of typescript and we can validate that by using the zod - TypeScript-first schema validation with static type inference
+
+### The Login Page - 
+
+![image](https://github.com/user-attachments/assets/68c6f2c2-25a8-4170-a30c-07c985f7b118)
+
+After logging in the user gets redirected to the dashboard - 
+
+![image](https://github.com/user-attachments/assets/daecce05-0348-42c1-a743-a49c5e966d72)
+
+
+After that we can start connecting our account to the banks by clicking on the <b>Connect Bank</b> button - 
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
