@@ -35,9 +35,30 @@ After logging in the user gets redirected to the dashboard -
 
 After that we can start connecting our account to the banks by clicking on the <b>Connect Bank</b> button - 
 
+We can connect to the bank using the plaid and we do that using API_KEYS - 
+
+1. PLAID_CLIENT_ID
+2. PLAID_SECRET
+3. PLAID_ENV
+4. PLAID_PRODUCTS
+5. PLAID_COUNTRY_CODES
+
+![image](https://github.com/user-attachments/assets/c2f6a79d-d9a0-4ab4-8589-f5a47d5021c0)
+
+We can choose the bank of our Choice - 
+
+![image](https://github.com/user-attachments/assets/adc08086-07ba-4454-bb28-b5a6537e3f41)
+
+We choose the account which we need to connect to - 
+
+![image](https://github.com/user-attachments/assets/a733afba-42f0-460d-9382-5db9c9bb123f)
+
+After checking all the terms and conditions we get the successfull account linked message - 
+
+![image](https://github.com/user-attachments/assets/3197a8f5-30b6-4a1d-8362-106b5709b699) 
 
 
-
+<br/><br/><br/><br/>
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
