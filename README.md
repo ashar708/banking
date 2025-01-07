@@ -57,6 +57,8 @@ After checking all the terms and conditions we get the successfull account linke
 
 ![image](https://github.com/user-attachments/assets/3197a8f5-30b6-4a1d-8362-106b5709b699) 
 
+After the accounts get linked we can do the transaction by typing in the transaction form and sending the money from one account to the other.
+
 
 <br/><br/><br/><br/>
 
